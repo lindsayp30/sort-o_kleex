@@ -25,7 +25,7 @@ public class Sorts {
     }
   }
 
-  public static int bubbleSortV( ArrayList<Comparable> data )
+  public static int bubble( ArrayList<Comparable> data )
   {
     int counter = 0;
     for( int passCtr = 1; passCtr < data.size(); passCtr++ ) {
@@ -43,7 +43,7 @@ public class Sorts {
     return counter;
   }
 
-  public static int selectionSortV( ArrayList<Comparable> data )
+  public static int selection( ArrayList<Comparable> data )
   {
   //note: this version places greatest value at rightmost end,
 
@@ -67,7 +67,7 @@ public class Sorts {
     return counter;
   }//end selectionSort
 
-  public static int insertionSortV( ArrayList<Comparable> data )
+  public static int insertion( ArrayList<Comparable> data )
   {
     int counter = 0;
     for( int partition = 1; partition < data.size(); partition++ ) {
