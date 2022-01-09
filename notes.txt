@@ -1,0 +1,40 @@
+kleex -- Lindsay Phung and Xinqing Lin
+APCS
+Lab4: Never Fear, Big O is Here!
+2022-01-08
+
+DISCO:
+- Big O expresses the relation between how many elements are in the dataset and how many swaps are made
+
+QCC:
+-
+
+BUB-QA:
+* q0: If a pass requires no swaps, what do you know?
+* a0: array is sorted
+* q1: After pass p, what do you know?
+* a1: p elements are in their final position
+* q2: How many passes are necessary to completely sort?
+* a2: n-1
+
+SEL-QA:
+* q0: How many passes to sort n elements?
+* a0: n-1
+* q1: What do you know after pass p?
+* a1: last p elements are in ascending order
+* q2: How do you know if sorted?
+* a2: array is in ascending order
+* q3: What does a pass boil down to?
+* a3: locating the index of the greatest value and swapping that element with the element of the last index
+
+INS-QA:
+ * q0: How many passes to sort n elements?
+ * a0: data.size()-1
+ * q1: What do you know after pass p?
+ * a1: first p elements are in ascending order (occupying the 'sorted region')
+ * q2: How will you know when sorted?
+ * a2: array is in ascending order
+ * q3: What constitutes a pass?
+ * a3: the program moves the first element in the unsorted region to its appropriate location in the sorted region
+ * q4: What must you track?
+ * a4: location of partition as it traverses through the sorted region
