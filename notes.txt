@@ -1,13 +1,14 @@
 kleex -- Lindsay Phung and Xinqing Lin
 APCS
 Lab4: Never Fear, Big O is Here!
-2022-01-08
+2022-01-10
 
 DISCO:
-- Big O expresses the relation between how many elements are in the dataset and how many swaps are made
+- Big O expresses the relation between how many elements are in the dataset and how many swaps and passes are made
 
 QCC:
--
+- Desmos is great at visualizing the equations
+- For time complexities, we encountered O(n) and O(n^2)
 
 BUB-QA:
 * q0: If a pass requires no swaps, what do you know?
